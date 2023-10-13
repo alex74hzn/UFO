@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Airplane plane = new Airplane("Boing 747", 4, 600, "Графитовый");
       //  double maxSpeed = plane.getMaxSpeed();
-        Drone drone = new Drone("Yuneec", 28, 4, "Оранжевый");
+        Drone drone = new Drone("Yuneec", 28, 6, "Оранжевый");
         plane.takeOff();
         plane.fly();
         plane.moveRight();
@@ -23,7 +23,7 @@ public class Main {
         System.out.println(drone);
         printProcess(drone.getProcess());
 
-        Bird bird = new Bird("Скворец",50,25,3,"Коричневый");
+        Bird bird = new Bird("Скворец",50,35,4,"Темно-коричневый");
         bird.takeOff();
         bird.fly();
         bird.land();
